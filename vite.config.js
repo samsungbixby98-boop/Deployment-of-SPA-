@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: "/Deployment-of-SPA-/",
   build: {
     target: 'es2018',
     minify: 'esbuild',
